@@ -18,11 +18,13 @@ $ npm install
 
 ### run
 
+set up your phone to use `mitmproxy` as an HTTP proxy (make sure that you install the root cert that's needed for decrypting HTTP traffic).
+
 ```
-# start the proxy
+# start the proxy (on port 8080)
 $ mitmdump -p 8080 -s stream-traffic.py
 
-# start the node app
+# start the node app (it will listen on port 1337)
 $ node app | tee -a stat.json
 ```
 
