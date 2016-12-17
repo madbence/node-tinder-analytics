@@ -18,7 +18,7 @@ $ npm install
 
 ### run
 
-set up your phone to use `mitmproxy` as an HTTP proxy (make sure that you install the root cert that's needed for decrypting HTTP traffic).
+set up your phone to use `mitmproxy` as an HTTP proxy (make sure that you install the root cert that's needed for decrypting HTTPS traffic).
 
 ```
 # start the proxy (on port 8080)
