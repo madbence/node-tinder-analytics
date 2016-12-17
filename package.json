@@ -1,0 +1,27 @@
+{
+  "name": "tinder-analytics",
+  "version": "0.0.0",
+  "description": "Analytics for Tinder",
+  "main": "app.js",
+  "dependencies": {
+    "split": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo '100/100 OK'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madbence/node-tinder-analytics.git"
+  },
+  "keywords": [
+    "tinder",
+    "analytics"
+  ],
+  "author": "Bence Dányi <bence@danyi.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madbence/node-tinder-analytics/issues"
+  },
+  "homepage": "https://github.com/madbence/node-tinder-analytics#readme"
+}
