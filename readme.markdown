@@ -1,8 +1,10 @@
-# tinder analytics
+# :bar_chart: tinder analytics
+
+> :bar_chart: analyze your own tinder usage behavior
 
 ## usage
 
-### install
+### :turtle: install
 
 clone the repo with
 
@@ -10,13 +12,13 @@ clone the repo with
 $ git clone git@github.com:madbence/node-tinder-analytics.git
 ```
 
-install [mitmproxy][mitmproxy] and [node][node], also
+install [mitmproxy][mitmproxy] and [node][node], also you probably need to
 
 ```sh
 $ npm install
 ```
 
-### run
+### :rocket: run
 
 set up your phone to use `mitmproxy` as an HTTP proxy (make sure that you install the root cert that's needed for decrypting HTTPS traffic).
 
@@ -28,9 +30,13 @@ $ mitmdump -p 8080 -s stream-traffic.py
 $ node app | tee -a stat.json
 ```
 
-### analyze
+use tinder as usual...
+
+### :bar_chart: analyze
 
 `stat.json` should contain your user recommendations and actions (like/pass), every line is a separate JSON object. Explore the data yourself :wink:.
+
+I have a few scripts that can plot pretty graphs, i'll publish them soon!
 
 ## license
 
